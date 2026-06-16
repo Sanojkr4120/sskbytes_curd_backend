@@ -1,0 +1,55 @@
+# SSKBYTES - My Task Manager API
+
+This is a simple backend project. It is a **Task Manager API** that helps you keep track of things you need to do. I used **Node.js**, **Express**, and **MongoDB Atlas** to build this.
+
+## What can this API do?
+
+I have added all the basic features (CRUD) for managing tasks:
+- **Add a Task**: You can create a new task with a title and description.
+- **See All Tasks**: You can see a list of all tasks you created.
+- **Filter by Status**: If you only want to see "pending" tasks, you can do that!
+- **Update a Task**: You can change the title, description, or status of a task later.
+- **Delete a Task**: If you don't need a task anymore, you can remove it.
+
+## How I organized the code (MVC Pattern)
+
+I followed the **MVC pattern** to keep the code clean and easy to read:
+- **models/**: This folder has my "Task" blueprint (how a task looks in the database).
+- **controllers/**: This folder has all the logic (what happens when you click a button).
+- **routes/**: This folder has the URL paths for our API.
+- **config/**: Here I added the code to connect to my MongoDB database.
+
+## How to run this project on your computer
+
+Follow these simple steps to get the project working:
+
+1. **Install everything**:
+   Open your terminal in the `backend` folder and type:
+   ```bash
+   npm install
+   ```
+2. **Set up your secrets (.env)**:
+   Create a new file named `.env` and add these two lines (use your own MongoDB link):
+   ```env
+   PORT=5000
+   MONGO_URI=your_mongodb_atlas_connection_string
+   ```
+3. **Start the server**:
+   Type this to start the server:
+   ```bash
+   npm run dev
+   ```
+
+## 📡 API Link Table
+
+Use these links to talk to the API:
+
+| Task Operation | Request Type | URL Path | What it does? |
+| :--- | :--- | :--- | :--- |
+| **Create Task** | POST | `/api/tasks` | Create a new task |
+| **Get All Tasks** | GET | `/api/tasks` | See all tasks |
+| **Filter by Status**| GET | `/api/tasks?status=pending` | See tasks by their status |
+| **Get One Task** | GET | `/api/tasks/:id` | Find a single task by its ID |
+| **Edit Task** | PUT | `/api/tasks/:id` | Change task details |
+| **Remove Task** | DELETE | `/api/tasks/:id` | Permanentely delete a task |
+
