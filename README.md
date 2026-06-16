@@ -42,14 +42,16 @@ Follow these simple steps to get the project working:
 
 ## 📡 API Link Table
 
+**Live API URL:** `https://sskbytes-curd-backend-version-1.vercel.app`
+
 Use these links to talk to the API:
 
-| Task Operation | Request Type | URL Path | What it does? |
+| Task Operation | Request Type | URL | What it does? |
 | :--- | :--- | :--- | :--- |
-| **Create Task** | POST | `/api/tasks` | Create a new task |
-| **Get All Tasks** | GET | `/api/tasks` | See all tasks |
-| **Filter by Status**| GET | `/api/tasks?status=pending` | See tasks by their status |
-| **Get One Task** | GET | `/api/tasks/:id` | Find a single task by its ID |
-| **Edit Task** | PUT | `/api/tasks/:id` | Change task details |
-| **Remove Task** | DELETE | `/api/tasks/:id` | Permanentely delete a task |
+| **Create Task** | POST | `https://sskbytes-curd-backend-version-1.vercel.app/api/tasks` | Create a new task |
+| **Get All Tasks** | GET | `https://sskbytes-curd-backend-version-1.vercel.app/api/tasks` | See all tasks |
+| **Filter by Status**| GET | `.../api/tasks?status=pending` | See tasks by their status |
+| **Get One Task** | GET | `.../api/tasks/:id` | Find a single task by its ID |
+| **Edit Task** | PUT | `.../api/tasks/:id` | Change task details |
+| **Remove Task** | DELETE | `.../api/tasks/:id` | Permanentely delete a task |
 

@@ -24,12 +24,13 @@
 					"raw": "{\n    \"title\": \"Complete Backend Assignment\",\n    \"description\": \"Build REST API using Express and MongoDB\",\n    \"status\": \"pending\"\n}"
 				},
 				"url": {
-					"raw": "http://localhost:5000/api/tasks",
-					"protocol": "http",
+					"raw": "https://sskbytes-curd-backend-version-1.vercel.app/api/tasks",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"sskbytes-curd-backend-version-1",
+						"vercel",
+						"app"
 					],
-					"port": "5000",
 					"path": [
 						"api",
 						"tasks"
@@ -44,12 +45,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/api/tasks",
-					"protocol": "http",
+					"raw": "https://sskbytes-curd-backend-version-1.vercel.app/api/tasks",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"sskbytes-curd-backend-version-1",
+						"vercel",
+						"app"
 					],
-					"port": "5000",
 					"path": [
 						"api",
 						"tasks"
@@ -64,12 +66,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/api/tasks?status=pending",
-					"protocol": "http",
+					"raw": "https://sskbytes-curd-backend-version-1.vercel.app/api/tasks?status=pending",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"sskbytes-curd-backend-version-1",
+						"vercel",
+						"app"
 					],
-					"port": "5000",
 					"path": [
 						"api",
 						"tasks"
@@ -90,12 +93,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/api/tasks/REPLACE_WITH_ID",
-					"protocol": "http",
+					"raw": "https://sskbytes-curd-backend-version-1.vercel.app/api/tasks/REPLACE_WITH_ID",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"sskbytes-curd-backend-version-1",
+						"vercel",
+						"app"
 					],
-					"port": "5000",
 					"path": [
 						"api",
 						"tasks",
@@ -120,12 +124,13 @@
 					"raw": "{\n    \"title\": \"Updated Task Title\",\n    \"status\": \"in-progress\"\n}"
 				},
 				"url": {
-					"raw": "http://localhost:5000/api/tasks/REPLACE_WITH_ID",
-					"protocol": "http",
+					"raw": "https://sskbytes-curd-backend-version-1.vercel.app/api/tasks/REPLACE_WITH_ID",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"sskbytes-curd-backend-version-1",
+						"vercel",
+						"app"
 					],
-					"port": "5000",
 					"path": [
 						"api",
 						"tasks",
