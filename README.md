@@ -1,4 +1,4 @@
-# SSKBYTES - My Task Manager API
+# SSKBYTES - Task Manager API
 
 This is a simple backend project. It is a **Task Manager API** that helps you keep track of things you need to do. I used **Node.js**, **Express**, and **MongoDB Atlas** to build this.
 
