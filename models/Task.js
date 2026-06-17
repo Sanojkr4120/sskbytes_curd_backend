@@ -1,11 +1,11 @@
 import mongoose from 'mongoose';
 
-// This is the blueprint for our Task data
+// This is Task data
 const taskSchema = new mongoose.Schema({
     title: {
         type: String,
         // We make the title required so every task has a name
-        required: [true, 'Please give your task a title'],
+        required: [true,'Please give your task a title'],
         trim: true
     },
     description: {

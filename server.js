@@ -1,6 +1,6 @@
 /**
  * MAIN SERVER FILE
- * This is the entry point of our SSKBYTES Task Manager API.
+ * This is the entry point of SSKBYTES Task Manager API.
  */
 
 // Import necessary tools
@@ -43,7 +43,7 @@ app.use((req, res) => {
 
 // Step 7: Start the Server
 // We use the PORT from .env or default to 5000
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 
 app.listen(PORT, () => {
 
