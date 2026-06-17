@@ -55,3 +55,6 @@ Use these links to talk to the API:
 | **Edit Task** | PUT | `.../api/tasks/:id` | Change task details |
 | **Remove Task** | DELETE | `.../api/tasks/:id` | Permanentely delete a task |
 
+
+
+![image alt](https://github.com/Sanojkr4120/sskbytes_curd_backend/blob/424f252868fe4f8b5fc537dfe5f59b7be620e4f7/Screenshot%202026-06-17%20105452.png)
