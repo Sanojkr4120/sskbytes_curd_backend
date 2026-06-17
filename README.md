@@ -58,3 +58,8 @@ Use these links to talk to the API:
 
 
 ![image alt](https://github.com/Sanojkr4120/sskbytes_curd_backend/blob/424f252868fe4f8b5fc537dfe5f59b7be620e4f7/Screenshot%202026-06-17%20105452.png)
+![image alt](https://github.com/Sanojkr4120/sskbytes_curd_backend/blob/99814ab50fe9bf0c64a7709259452047bf30c4d2/Screenshot%202026-06-17%20105603.png)
+![image alt](https://github.com/Sanojkr4120/sskbytes_curd_backend/blob/99814ab50fe9bf0c64a7709259452047bf30c4d2/Screenshot%202026-06-17%20105646.png)
+![image alt](https://github.com/Sanojkr4120/sskbytes_curd_backend/blob/99814ab50fe9bf0c64a7709259452047bf30c4d2/Screenshot%202026-06-17%20105733.png)
+![image alt](https://github.com/Sanojkr4120/sskbytes_curd_backend/blob/99814ab50fe9bf0c64a7709259452047bf30c4d2/Screenshot%202026-06-17%20105913.png)
+![image alt](https://github.com/Sanojkr4120/sskbytes_curd_backend/blob/99814ab50fe9bf0c64a7709259452047bf30c4d2/Screenshot%202026-06-17%20110010.png)
